@@ -1,0 +1,101 @@
+#nav, #nav-compact {
+    transition: top 0.3s;
+}
+
+.nav-bar {
+    background: #112A43;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.nav-bar-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+}
+
+.nav-bar-link-container {
+    width: 80%;
+    display: inline-block;
+}
+
+.nav-link {
+    color: white;
+    letter-spacing: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    background: none;
+    border: none;
+}
+
+.nav-link:hover {
+    color: white;
+    opacity: 0.8;
+}
+
+.nav-link-right {
+    float: right;
+}
+
+.nav-logo {
+    height: 70px;
+    position: absolute;
+    top: 0;
+}
+
+.nav-logo-wrapper {
+    width: 130px;
+    display: inline-block;
+}
+
+
+
+
+
+.nav-bar-compact {
+    background: #112A43;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    visibility: hidden;
+}
+
+.nav-bar-compact-logo {
+    height: 90px;
+    position: absolute;
+    top: 0;
+}
+
+.nav-bar-compact-menu {
+    height: 100%;
+}
+
+
+
+
+@media only screen and (max-width: 1250px) {
+    .nav-link {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .nav-bar {
+        visibility: hidden;
+    }
+
+    .nav-bar-compact {
+        visibility: visible;
+    }
+}
