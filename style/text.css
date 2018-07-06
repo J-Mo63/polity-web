@@ -1,23 +1,18 @@
 .big-text {
     font-weight: bold;
-    text-transform: uppercase;
     letter-spacing: 5px;
+    text-transform: uppercase;
 }
 
 .heading-text {
-    font-size: 70px;
+    font-size: 80px;
     line-height: 120%;
     text-wrap: normal;
 }
 
-.subheading-text {
-    font-size: 40px;
-    line-height: 90%;
-}
-
-.text-container {
-    text-align: center;
-    width: 70%;
+.text-subheading {
+    font-size: 50px;
+    line-height: 10%;
 }
 
 .body-text {
@@ -39,101 +34,35 @@
     opacity: 0.8;
 }
 
-.faded-dark {
-    color: rgba(0, 0, 0, 0.3);
+.text-black {
+    color: black;
 }
 
-.reference-info {
+.italic-text {
     font-style: italic;
 }
 
-.issue-text {
-    text-align: right;
+.text-md {
     font-size: 20px;
-    margin-left: 50%;
 }
 
-.small-text {
-    font-size: 20px;
+.text-lg {
+    font-size: 30px;
 }
 
 .fancy-font {
     font-family: Baskerville, serif;
-    font-style: italic;
-}
-
-.left-text {
-    width: 55%;
+    text-transform: uppercase;
 }
 
 .pull-right {
     text-align: right;
 }
 
-.right-text {
-    margin-left: 55%;
-    width: 50%;
-}
-
-.center-pad {
-    margin-left: 100px;
-}
-
-@media only screen and (max-width: 1000px) {
-    .text-container {
-        width: 100%;
-    }
-
-    .heading-text {
-        font-size: 50px;
-    }
-
-    .subheading-text {
-        font-size: 30px;
-    }
-
-    .right-text {
-        margin-left: 0;
-        width: 100%;
-    }
-
-    .left-text {
-        width: 80%;
-    }
-
-    .issue-text {
-        margin-left: 10%;
-    }
-
-    .center-pad {
-        margin-left: 0;
-    }
-}
-
 @media only screen and (max-width: 600px) {
-
     .heading-text {
-        font-size: 30px;
-    }
-
-    .subheading-text {
-        font-size: 20px;
-    }
-
-    .left-text {
-        width: 100%;
-    }
-
-    .left-title {
-        text-align: center;
-    }
-
-    .issue-text {
-        margin-left: 0;
-        text-align: center;
-    }
-
-    .pull-right {
-        text-align: center;
+        font-size: 40px;
+        line-height: 120%;
+        text-wrap: normal;
     }
 }

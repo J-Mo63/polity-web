@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import LoginButton from "./LoginButton";
+import LoginButton from "./LoginButton"
 import { Link } from 'react-router-dom'
 
 const NavBar = ({ user }) => (
@@ -15,6 +15,7 @@ const NavBar = ({ user }) => (
                 <div className="nav-bar-link-container">
                     <Link className="nav-link" to='/test'>About.</Link>
                     <Link className="nav-link" to='/test'>Polity's // Guide To.</Link>
+                    <Link className="nav-link" to='/test'>Blog.</Link>
                     <Link className="nav-link" to='/test'>FAQ.</Link>
                     <Link className="nav-link" to='/test'>Contact.</Link>
                     <LoginButton user={user}/>

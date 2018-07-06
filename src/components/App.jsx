@@ -9,12 +9,10 @@ export default class App extends Component {
       return (
           <div>
               <NavigationContainer />
-              <div className="container">
-                  <Switch>
-                      <Route exact path='/' component={ HomeContainer } />
-                      <Route exact path='/:articleTitle' component={ ArticleContainer } />
-                  </Switch>
-              </div>
+              <Switch>
+                  <Route exact path='/' component={ HomeContainer } />
+                  <Route exact path='/:articleTitle' component={ ArticleContainer } />
+              </Switch>
           </div>
       );
   }

@@ -1,33 +1,15 @@
 #body {
     font-family: "Avenir Next", sans-serif;
-    padding-top: 100px;
     background: #B83030;
     color: white;
 }
 
+.body-b-and-w {
+    background: #111111 !important;
+}
+
 .center {
     margin: auto;
-}
-
-.divider {
-    width: 80%;
-    margin-left: 10%;
-    height: 1px;
-    background: white;
-}
-
-.content-left {
-    width: 50%;
-}
-
-.content-right {
-    margin-left: 50%;
-    width: 50%;
-}
-
-.flex-container {
-    display: flex;
-    justify-content: center;
 }
 
 .flex-container-vertical {
@@ -43,24 +25,6 @@
     justify-content: flex-start;
     flex-wrap: wrap;
     flex-direction: column;
-}
-
-.flex-items {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-}
-
-.article-image {
-    border-radius: 50%;
-    overflow: hidden;
-    width: 300px;
-    height: 300px;
-    background: no-repeat center;
-    background-size: cover;
-    margin-left: auto;
-    margin-bottom: 40px;
 }
 
 .article-sidebar {
@@ -79,15 +43,6 @@
     margin-bottom: 10px;
 }
 
-.sidebar-link-selected {
-    color: #112A43;
-    border-left: #112A43 solid 3px;
-}
-
-.sidebar-link-selected a {
-    color: #112A43;
-}
-
 .sidebar-link {
     margin-left: 10px;
     color: white;
@@ -96,8 +51,35 @@
 }
 
 .sidebar-link:hover {
-    color: #112A43;
+    opacity: 0.7;
     text-decoration: none;
+}
+
+.sidebar-link-selected {
+    color: white;
+    border-left: white solid 3px;
+}
+
+.sidebar-link-selected a {
+    color: white;
+}
+
+
+.sidebar-link-dark {
+     color: #333333;
+}
+
+.sidebar-link-dark a {
+    color: #333333;
+}
+
+.sidebar-link-dark-selected {
+    color: #B83030;
+    border-left: #B83030 solid 3px;
+}
+
+.sidebar-link-dark-selected a {
+    color: #B83030;
 }
 
 @media only screen and (max-width: 1250px) {
@@ -107,23 +89,8 @@
 }
 
 @media only screen and (max-width: 1000px) {
-    .content {
-        margin-left: 30px;
-        margin-right: 30px;
-    }
 
     .flex-items {
-        flex-direction: column-reverse;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .content {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .article-image {
-        margin-right: auto;
+        flex-direction: column;
     }
 }

@@ -1,5 +1,6 @@
 #nav, #nav-compact {
     transition: top 0.3s;
+    z-index: 2;
 }
 
 .nav-bar {

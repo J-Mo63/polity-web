@@ -2,18 +2,23 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import TextBlock from "./TextBlock";
 
-const Argument = ({ argument }) => (
+const Argument = ({ argument, colour }) => (
     <div>
         <TextBlock text={ argument.text }/>
-        <p styles={"reference-info"}>{ "- " + argument.reference }</p>
-        <a className="argument-link" href={argument.referenceLink} >Read More</a>
+        <p>{ "- " + argument.reference }</p>
+        <a className={ "argument-link " + getStyle(colour) } href={argument.referenceLink}>Read More</a>
         <br />
         <br />
     </div>
 );
 
+const getStyle = (colour) => {
+    return colour === 'black' ? 'argument-link-dark' : '';
+};
+
 Argument.propTypes = {
-    argument: PropTypes.any.isRequired
+    argument: PropTypes.any.isRequired,
+    colour: PropTypes.string.isRequired
 };
 
 export default Argument

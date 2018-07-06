@@ -3,9 +3,9 @@ import PropTypes from 'prop-types'
 import Subheading from "./Subheading";
 
 const ArticleDate = ({ date }) => (
-	<div className="center-pad">
-        <Subheading text={formatDate(date, "year")} styles={"faded-dark"} />
-		<Subheading text={formatDate(date, "date/monthString")} />
+	<div>
+        <Subheading text={ formatDate(date, "year") } />
+        <p className="text-lg">{ formatDate(date, "date/monthString") }</p>
 	</div>
 );
 
@@ -21,7 +21,6 @@ const formatDate = (date, format) => {
 	        break;
 	    case "date/monthString":
 	        return d.getDate() + " " + monthNames[d.getMonth()];
-	        break;
 	    default:
 	        return d.toString();
 	}
@@ -29,6 +28,6 @@ const formatDate = (date, format) => {
 
 ArticleDate.propTypes = {
   date: PropTypes.string.isRequired
-}
+};
 
 export default ArticleDate
