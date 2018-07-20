@@ -17,8 +17,7 @@ const formatDate = (date, format) => {
 	let d = new Date(date);
 	switch(format) {
 	    case "year":
-	        return d.getFullYear().toString();;
-	        break;
+	        return d.getFullYear().toString();
 	    case "date/monthString":
 	        return d.getDate() + " " + monthNames[d.getMonth()];
 	    default:

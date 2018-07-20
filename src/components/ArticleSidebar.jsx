@@ -1,6 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import LoginButton from "./LoginButton";
 
 const ArticleSidebar = () => (
     <div id="article-sidebar" className="article-sidebar">

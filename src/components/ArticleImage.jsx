@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const ArticleImage = ({ link, caption, rounded }) => (
     <div>
         <div className={ "article-image-container " + getRounding(rounded) } >
-            <img src={ link } />
+            <img src={ link } alt="" />
         </div>
         <p className="facts-image-caption">{ caption }</p>
     </div>

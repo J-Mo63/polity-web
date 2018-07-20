@@ -1,7 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import LoginButton from "./LoginButton"
+import LoginButton from "../LoginButton"
 import { Link } from 'react-router-dom'
+import './nav-bar.css';
 
 const NavBar = ({ user }) => (
     <div>
@@ -9,7 +10,8 @@ const NavBar = ({ user }) => (
             <div className="nav-bar-container">
                 <div className="nav-logo-wrapper">
                     <Link to='/'>
-                        <img className="nav-logo" src="../../public/polity_logo.png" />
+                        <img className="nav-logo" alt=""
+                             src={ require("./res/polity_logo.png") } />
                     </Link>
                 </div>
                 <div className="nav-bar-link-container">
@@ -23,8 +25,10 @@ const NavBar = ({ user }) => (
             </div>
         </div>
         <div id="nav-compact" className="nav-bar-compact">
-            <img className="nav-bar-compact-logo" src="../../public/polity_logo.png" />
-            <img className="nav-bar-compact-menu nav-link-right" src="../../public/menu_icon.png" />
+            <img className="nav-bar-compact-logo" alt=""
+                 src={ require("./res/polity_logo.png") } />
+            <img className="nav-bar-compact-menu nav-link-right" alt=""
+                 src={ require("./res/menu_icon.png") } />
         </div>
     </div>
 );

@@ -1,8 +1,7 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Heading from "./Heading";
 
-const OpinionSection = ({  }) => (
+const OpinionSection = () => (
     <div className="opinion-section">
         <div className="container">
             <div id="opinion-header">
@@ -11,8 +10,5 @@ const OpinionSection = ({  }) => (
         </div>
     </div>
 );
-
-OpinionSection.propTypes = {
-};
 
 export default OpinionSection
