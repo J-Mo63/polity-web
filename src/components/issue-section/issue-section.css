@@ -1,0 +1,31 @@
+/* Issue Section Styles */
+.issue-section {
+    background-color: lightgrey;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 110vh;
+}
+
+.issue-content {
+    align-self: center;
+    width: 500px;
+    text-align: center;
+    flex: 1 1 auto;
+    overflow-y: auto;
+}
+
+/* Breakpoints */
+@media only screen and (max-width: 600px) {
+
+    .issue-section {
+        min-height: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .issue-content {
+        width: 100%;
+    }
+}

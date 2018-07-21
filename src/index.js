@@ -8,11 +8,6 @@ import { BrowserRouter } from 'react-router-dom'
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 
-// Stylesheets
-import './style/article.css';
-import './style/global.css';
-import './style/text.css';
-
 // App & Components
 import App from './components/App';
 import reducers from './reducers';
@@ -24,6 +19,6 @@ ReactDOM.render(
             <App />
         </BrowserRouter>
     </Provider>
-    , document.querySelector('.content')
+    , document.getElementById('content')
 );
 registerServiceWorker();

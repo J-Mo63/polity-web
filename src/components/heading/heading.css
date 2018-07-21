@@ -1,0 +1,19 @@
+.big-text {
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.heading-text {
+    font-size: 80px;
+    line-height: 120%;
+    text-wrap: normal;
+}
+
+@media only screen and (max-width: 600px) {
+    .heading-text {
+        font-size: 40px;
+        line-height: 120%;
+        text-wrap: normal;
+    }
+}

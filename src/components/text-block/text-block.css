@@ -1,0 +1,18 @@
+.body-text {
+    white-space: pre-line;
+}
+
+.body-text * {
+    margin: 0;
+}
+
+.body-text a {
+    color: white;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.body-text a:hover {
+    color: white;
+    opacity: 0.8;
+}

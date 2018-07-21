@@ -1,0 +1,41 @@
+/* Facts Section Styles */
+.facts-section {
+    padding-top: 40px;
+    padding-bottom: 200px;
+}
+
+.facts-content {
+    display: flex;
+    flex-flow: row wrap-reverse;
+}
+
+.pull-right {
+    text-align: right;
+}
+
+.facts-body {
+    flex: 2 2 400px;
+    padding-right: 15%;
+}
+
+.facts-images {
+    flex: 1 1 200px;
+    align-self: flex-end;
+}
+
+
+/* Breakpoints */
+@media only screen and (max-width: 600px) {
+
+    .facts-section {
+        padding-bottom: 20px;
+    }
+
+    .facts-body {
+        width: 100%;
+    }
+
+    .facts-images {
+        display: none;
+    }
+}

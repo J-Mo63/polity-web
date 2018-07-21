@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import TextBlock from './TextBlock'
+import TextBlock from './text-block/TextBlock'
 
 const Home = ({ article }) => (
     <div>

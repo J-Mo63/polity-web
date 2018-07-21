@@ -1,0 +1,32 @@
+/* Hero Section Styles */
+.hero-section {
+    display: flex;
+    align-content: flex-start;
+    width: 100%;
+    background: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    width: 70%;
+    padding-top: 10%;
+    min-height: 100vh;
+}
+
+.context {
+    width: 70%;
+}
+
+/* Breakpoints */
+@media only screen and (max-width: 600px) {
+
+    .hero-content {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .context {
+        width: 100%;
+    }
+}

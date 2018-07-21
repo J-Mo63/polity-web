@@ -1,0 +1,22 @@
+/* Arguments Section Styles */
+.arguments-section {
+    padding-top: 60px;
+}
+
+.arguments-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.arguments {
+    width: 50%
+}
+
+/* Breakpoints */
+@media only screen and (max-width: 600px) {
+
+    .arguments {
+        width: 100%;
+    }
+}

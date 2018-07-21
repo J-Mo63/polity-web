@@ -10,7 +10,6 @@ const getButtonText = (user) => {
         return "Login";
     }
     else {
-        console.log(typeof user);
         return "Logged in as " + user.username;
     }
 };
