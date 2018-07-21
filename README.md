@@ -28,6 +28,15 @@ To test the project run:
 $ npm test
 ```
 
+## Deployment
+
+To build a production Docker image from the project files run:
+```bash
+$ docker build -t image-name:tag-name .
+```
+
+For official image releases see the Dockerhub repo [here](https://hub.docker.com/r/jmo63/polity-web/).
+
 ## Contributing
 
 1. Fork it
