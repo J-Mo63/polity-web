@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const LoginButton = ({ user }) => (
-    <button className="nav-link nav-link-right" >{getButtonText(user)}</button >
+    <button className="nav-bar-link" >{getButtonText(user)}</button >
 );
 
 const getButtonText = (user) => {

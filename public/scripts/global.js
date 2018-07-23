@@ -4,8 +4,8 @@ $(window).scroll(function() {
     let currentScrollPos = window.pageYOffset;
 
     // Hide & show the navigation bar
-    let navbar = $("#nav");
-    let navbarCompact = $("#nav-compact");
+    let navbar = $("#nav-bar");
+    let navbarCompact = $("#nav-bar-compact");
     if (prevScrollPos > currentScrollPos || currentScrollPos <= 100) {
         navbar.css("top", 0);
         navbarCompact.css("top", 0);

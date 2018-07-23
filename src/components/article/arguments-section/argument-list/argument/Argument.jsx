@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import TextBlock from "../text-block/TextBlock";
+import TextBlock from "../../../../text-block/TextBlock";
 import './argument.css';
 
 const Argument = ({ argument, colour }) => (

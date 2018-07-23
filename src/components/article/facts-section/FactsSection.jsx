@@ -1,21 +1,21 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Heading from "../heading/Heading";
-import TextBlock from "../text-block/TextBlock";
-import FactsImage from "../facts-image/FactsImage";
+import Heading from "../../heading/Heading";
+import TextBlock from "../../text-block/TextBlock";
+import FactsImage from "./facts-image/FactsImage";
 import './facts-section.css';
 
 const FactsSection = ({ body, imageOne, imageTwo }) => (
     <div className="facts-section" id="facts-section">
         <div className="container">
-            <Heading text="Facts." styles="pull-right" />
+            <Heading text="Facts." styles="facts-section-title" />
             <br />
             <br />
-            <div className="facts-content">
-                <div className="facts-body facts-item-padding">
+            <div className="facts-section-content">
+                <div className="facts-section-body">
                     <TextBlock text={ body } />
                 </div>
-                <div className="facts-images">
+                <div className="facts-section-images">
                     <FactsImage link={ imageOne } caption="" rounded={ true } />
                     <FactsImage link={ imageTwo }
                                 caption={ "Some text about the image above" } rounded={ false } />

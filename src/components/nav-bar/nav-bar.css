@@ -1,4 +1,4 @@
-#nav, #nav-compact {
+#nav-bar, #nav-bar-compact {
     transition: top 0.3s;
     z-index: 2;
 }
@@ -23,7 +23,7 @@
     display: inline-block;
 }
 
-.nav-link {
+.nav-bar-link {
     color: white;
     letter-spacing: 2px;
     padding-left: 30px;
@@ -36,29 +36,30 @@
     border: none;
 }
 
-.nav-link:hover {
+.nav-bar-link:hover {
     color: white;
     opacity: 0.8;
 }
 
-.nav-link-right {
+.nav-bar-link-right {
     float: right;
 }
 
-.nav-logo {
+.nav-bar-logo-wrapper {
+    width: 130px;
+    display: inline-block;
+}
+
+.nav-bar-logo {
     height: 70px;
     position: absolute;
     top: 0;
 }
 
-.nav-logo-wrapper {
-    width: 130px;
-    display: inline-block;
-}
 
 
 
-
+/* Compact Styles */
 
 .nav-bar-compact {
     background: #112A43;
@@ -85,7 +86,7 @@
 
 
 @media only screen and (max-width: 1250px) {
-    .nav-link {
+    .nav-bar-link {
         padding-left: 15px;
         padding-right: 15px;
     }

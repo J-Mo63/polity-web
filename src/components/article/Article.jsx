@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import ArticleSidebar from "../article-sidebar/ArticleSidebar";
-import HeroSection from "../hero-section/HeroSection";
-import FactsSection from "../facts-section/FactsSection";
-import IssueSection from "../issue-section/IssueSection";
-import OpinionSection from "../opinion-section/OpinionSection";
-import ArgumentsSection from "../arguments-section/ArgumentsSection";
+import ArticleSidebar from "./article-sidebar/ArticleSidebar";
+import HeroSection from "./hero-section/HeroSection";
+import FactsSection from "./facts-section/FactsSection";
+import IssueSection from "./issue-section/IssueSection";
+import OpinionSection from "./opinion-section/OpinionSection";
+import ArgumentsSection from "./arguments-section/ArgumentsSection";
 import './article.css'
 
 const Article = ({ article }) => (
@@ -28,7 +28,7 @@ const Article = ({ article }) => (
 
 const setBAndW = (bAndW) => {
     if (bAndW) {
-        document.body.classList.add('body-b-and-w');
+        document.body.classList.add('article-body-b-and-w');
     }
 };
 

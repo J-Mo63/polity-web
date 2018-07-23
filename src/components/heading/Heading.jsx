@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './heading.css';
 
 const Heading = ({ text, styles }) => (
-    <p className={"big-text heading-text " + styles} >
+    <p className={"heading-text " + styles} >
         { text }
     </p>
 );

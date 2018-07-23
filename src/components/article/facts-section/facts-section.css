@@ -4,21 +4,21 @@
     padding-bottom: 200px;
 }
 
-.facts-content {
+.facts-section-title {
+    text-align: right;
+}
+
+.facts-section-content {
     display: flex;
     flex-flow: row wrap-reverse;
 }
 
-.pull-right {
-    text-align: right;
-}
-
-.facts-body {
+.facts-section-body {
     flex: 2 2 400px;
     padding-right: 15%;
 }
 
-.facts-images {
+.facts-section-images {
     flex: 1 1 200px;
     align-self: flex-end;
 }
@@ -31,11 +31,11 @@
         padding-bottom: 20px;
     }
 
-    .facts-body {
+    .facts-section-body {
         width: 100%;
     }
 
-    .facts-images {
+    .facts-section-images {
         display: none;
     }
 }

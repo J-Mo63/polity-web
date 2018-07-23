@@ -1,12 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Subheading from "../subheading/Subheading";
 import './article-date.css'
 
 const ArticleDate = ({ date }) => (
 	<div>
-        <Subheading text={ formatDate(date, "year") } />
-        <p className="text-lg">{ formatDate(date, "date/monthString") }</p>
+        <p className="article-date-year-text" >{ formatDate(date, "year") }</p>
+        <p className="article-date-day-text">{ formatDate(date, "date/monthString") }</p>
 	</div>
 );
 

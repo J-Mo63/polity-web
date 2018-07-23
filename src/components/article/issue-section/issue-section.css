@@ -8,7 +8,7 @@
     min-height: 110vh;
 }
 
-.issue-content {
+.issue-section-content {
     align-self: center;
     width: 500px;
     text-align: center;
@@ -25,7 +25,7 @@
         padding-bottom: 20px;
     }
 
-    .issue-content {
+    .issue-section-content {
         width: 100%;
     }
 }

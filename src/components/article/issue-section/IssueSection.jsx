@@ -1,15 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import IssueText from "../IssueText";
-import Heading from "../heading/Heading";
-import './issue-section.css';
+import Heading from "../../heading/Heading"
+import './issue-section.css'
+import TextBlock from "../../text-block/TextBlock";
 
 const IssueSection = ({ issue }) => (
     <div className="issue-section" id="issue-section">
         <div className="container">
-            <div className="issue-content">
+            <div className="issue-section-content">
                 <Heading text="Issue:" />
-                <IssueText text={ issue } />
+                <TextBlock text={ issue } />
             </div>
         </div>
     </div>

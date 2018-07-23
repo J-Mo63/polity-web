@@ -8,25 +8,25 @@
     background-position: center;
 }
 
-.hero-content {
+.hero-section-content {
     width: 70%;
     padding-top: 10%;
     min-height: 100vh;
 }
 
-.context {
+.hero-section-context {
     width: 70%;
 }
 
 /* Breakpoints */
 @media only screen and (max-width: 600px) {
 
-    .hero-content {
+    .hero-section-content {
         margin-top: 50px;
         width: 100%;
     }
 
-    .context {
+    .hero-section-context {
         width: 100%;
     }
 }

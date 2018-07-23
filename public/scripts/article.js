@@ -38,11 +38,11 @@ function highlightSelected(id) {
 
         if (link.offset().top > issueSection.offset().top &&
             link.offset().top < issueSection.offset().top + issueSection.height()) {
-            link.removeClass('sidebar-link-selected');
-            link.addClass('sidebar-link-dark');
+            link.removeClass('article-sidebar-link-selected');
+            link.addClass('article-sidebar-link-dark');
 
             if (link.attr('id') === 'issue-link') {
-                link.addClass('sidebar-link-dark-selected');
+                link.addClass('article-sidebar-link-dark-selected');
                 darkActive = true;
             }
         }
@@ -51,14 +51,14 @@ function highlightSelected(id) {
                 darkActive = false;
             }
 
-            link.removeClass('sidebar-link-dark');
-            link.removeClass('sidebar-link-dark-selected');
+            link.removeClass('article-sidebar-link-dark');
+            link.removeClass('article-sidebar-link-dark-selected');
 
             if (link.attr('id') === id && !darkActive) {
-                link.addClass('sidebar-link-selected');
+                link.addClass('article-sidebar-link-selected');
             }
             else {
-                link.removeClass('sidebar-link-selected');
+                link.removeClass('article-sidebar-link-selected');
             }
         }
     }

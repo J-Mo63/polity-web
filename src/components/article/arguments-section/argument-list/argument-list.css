@@ -1,4 +1,4 @@
-.argument-card {
+.argument-list-card {
     background: #112A43;
     border: white solid 1px;
     padding-left: 20px;
@@ -9,7 +9,7 @@
     border-radius: 10px;
 }
 
-.argument-title {
+.argument-list-title {
     font-weight: bold;
     font-size: 20px;
 }

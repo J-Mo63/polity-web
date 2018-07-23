@@ -3,20 +3,20 @@
     padding-top: 60px;
 }
 
-.arguments-container {
+.arguments-section-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.arguments {
+.arguments-section-arguments-list {
     width: 50%
 }
 
 /* Breakpoints */
 @media only screen and (max-width: 600px) {
 
-    .arguments {
+    .arguments-section-arguments-list {
         width: 100%;
     }
 }
