@@ -3,6 +3,7 @@ import ArticleContainer from '../containers/ArticleContainer'
 import NavigationContainer from '../containers/NavigationContainer'
 import { Switch, Route } from 'react-router-dom'
 import HomeContainer from "../containers/HomeContainer";
+import ArticlesContainer from "../containers/ArticlesContainer";
 
 export default class App extends Component {
   render() {
@@ -11,6 +12,7 @@ export default class App extends Component {
               <NavigationContainer />
               <Switch>
                   <Route exact path='/' component={ HomeContainer } />
+                  <Route exact path='/articles' component={ ArticlesContainer } />
                   <Route exact path='/:articleTitle' component={ ArticleContainer } />
               </Switch>
           </div>

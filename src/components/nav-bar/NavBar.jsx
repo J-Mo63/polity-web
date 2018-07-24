@@ -15,8 +15,8 @@ const NavBar = ({ user }) => (
                     </Link>
                 </div>
                 <div className="nav-bar-link-container">
-                    <Link className="nav-bar-link" to='/test'>About.</Link>
-                    <Link className="nav-bar-link" to='/test'>Polity's // Guide To.</Link>
+                    <Link className="nav-bar-link" to='/'>About.</Link>
+                    <Link className="nav-bar-link" to='/articles'>Polity's // Guide To.</Link>
                     <Link className="nav-bar-link" to='/test'>Blog.</Link>
                     <Link className="nav-bar-link" to='/test'>FAQ.</Link>
                     <Link className="nav-bar-link" to='/test'>Contact.</Link>
