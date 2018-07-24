@@ -9,7 +9,7 @@ import ArgumentsSection from "./arguments-section/ArgumentsSection";
 import './article.css'
 
 const Article = ({ article }) => (
-    <div>
+    <div className="article">
         <ArticleSidebar  bAndW={ article.bAndW }/>
         <HeroSection image={ article.heroImage } datePublished={ article.datePublished }
                      title={ article.title } author={ article.author } context={ article.situation } />
