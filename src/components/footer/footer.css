@@ -1,0 +1,48 @@
+.footer-topper {
+    border-bottom: 100px solid #B83030;
+    border-right: 100vw solid transparent;
+}
+
+.footer {
+    width: 100%;
+    background: #B83030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.footer-social-links {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.footer-social-links a {
+    color: white;
+}
+
+.footer-social-links a:hover {
+    opacity: 0.5;
+}
+
+.footer-social-link {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer-copyright {
+    margin-top: 10px;
+}
+
+/* Breakpoints */
+@media only screen and (max-width: 600px) {
+
+    .footer-topper {
+        display: none;
+    }
+
+    .footer {
+        padding-top: 20px;
+    }
+}
