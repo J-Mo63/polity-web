@@ -1,0 +1,101 @@
+/* Common Styles */
+.article-thumb-title-link a {
+    color: black;
+}
+
+
+/* Featured Styles */
+.article-thumb-featured {
+    width: 50%;
+}
+
+.article-thumb-featured-content {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.article-thumb-featured-image-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.article-thumb-image {
+    width: 100%;
+}
+
+.article-thumb-featured-title {
+    font-weight: bold;
+    font-size: 28px;
+    width: 75%;
+    margin-bottom: 5px;
+}
+
+.article-thumb-featured-caption {
+    font-size: 18px;
+}
+
+
+/* Normal Styles */
+.article-thumb {
+    margin-bottom: 20px;
+    border-top: 2px solid lightgrey;
+    padding-top: 10px;
+}
+
+.article-thumb-content {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.article-thumb-text {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.article-thumb-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.article-thumb-image-container {
+    width: 30%;
+    height: 120px;
+    overflow: hidden;
+}
+
+.article-thumb-caption {
+    font-size: 16px;
+}
+
+
+
+/* Breakpoints */
+@media only screen and (max-width: 1000px) {
+
+    .article-thumb {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .article-thumb-image-container {
+        display: none;
+    }
+
+    .article-thumb-featured {
+        width: 100%;
+    }
+
+    .article-thumb-featured-title {
+        width: 100%;
+    }
+
+    .article-thumb-content {
+        flex-wrap: wrap;
+    }
+
+    .article-thumb-text {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

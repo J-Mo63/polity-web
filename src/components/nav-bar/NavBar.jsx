@@ -17,9 +17,9 @@ const NavBar = ({ user }) => (
                 <div className="nav-bar-link-container">
                     <Link className="nav-bar-link" to='/'>About.</Link>
                     <Link className="nav-bar-link" to='/articles'>Polity's // Guide To.</Link>
-                    <Link className="nav-bar-link" to='/test'>Blog.</Link>
-                    <Link className="nav-bar-link" to='/test'>FAQ.</Link>
-                    <Link className="nav-bar-link" to='/test'>Contact.</Link>
+                    <Link className="nav-bar-link" to="/article/test">Blog.</Link>
+                    <Link className="nav-bar-link" to="/article/test">FAQ.</Link>
+                    <Link className="nav-bar-link" to="/article/test">Contact.</Link>
                     <LoginButton user={user}/>
                 </div>
             </div>

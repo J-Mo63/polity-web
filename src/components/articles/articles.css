@@ -1,0 +1,110 @@
+.articles {
+    margin-top: 75px;
+}
+
+.articles-filter-links {
+    margin-left: 30%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    flex-direction: row;
+}
+
+.articles-filter-links a {
+    color: black;
+}
+
+.articles-title {
+    width: 100%;
+    text-align: center;
+}
+
+.articles-description {
+    font-size: 14px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.articles-featured-articles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articles-featured-articles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articles-articles-list-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articles-articles-list {
+    width: 70%;
+}
+
+.articles-ads {
+    width: 30%;
+}
+
+.articles-ad-container {
+    height: 720px;
+    width: 60%;
+    margin-left: 40%;
+    background: white;
+    border: 2px solid black;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.articles-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+/* Breakpoints */
+@media only screen and (max-width: 1000px) {
+
+    .articles-filter-links {
+        margin-top: 120px;
+        margin-left: 0;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .articles-filter-links a {
+        background: #112A43;
+        color: white;
+        font-size: 30px;
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .articles-articles-list {
+        width: 100%;
+    }
+
+    .articles-ads {
+        width: 100%;
+    }
+
+    .articles-ad-container {
+        height: 400px;
+        width: 100%;
+        margin-left: 0;
+    }
+}

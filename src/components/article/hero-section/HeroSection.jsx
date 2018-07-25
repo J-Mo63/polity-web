@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import ByLine from "./by-line/ByLine";
 import ArticleDate from "./article-date/ArticleDate";
 import TextBlock from "../../text-block/TextBlock";
 import Heading from "../../heading/Heading";
@@ -13,7 +12,7 @@ const HeroSection = ({ image, title, author, datePublished, context }) => (
                 <Heading text={ title } />
                 <br />
                 <ArticleDate date={ datePublished } />
-                <ByLine author={ author } />
+                <p className="hero-section-by-line">By { author }</p>
                 <br />
                 <div className="hero-section-context">
                     <TextBlock text={ context } />
