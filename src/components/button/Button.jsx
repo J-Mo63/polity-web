@@ -5,7 +5,7 @@ import './button.css';
 const Button = ({ text, colour, size }) => (
     <button className="button"
          style={{
-             background: colour,
+             color: colour,
              borderColor: colour,
              fontSize: size
          }}>{ text }</button>
